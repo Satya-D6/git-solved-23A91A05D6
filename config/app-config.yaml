@@ -1,31 +1,52 @@
-# Application Configuration
+# Unified Application Configuration
 application:
   name: DevOpsSimulator
-  version: 2.0.0-beta
-  environment: production  # switched to production mode for deployment
+  version: 3.0.0
+  environment: production
+  experimental_mode: false  # set to true for testing experimental features
 
 server:
   host: 0.0.0.0
   port: 8080
   ssl_enabled: true
-  # hot_reload: true  # only used in development
+  # optional multi-port setup for testing environments
+  multi_port: [8080, 9000, 9001, 9002]
 
 logging:
   level: INFO
   format: json
   output: /var/log/app.log
-  # show_stack_trace: true  # uncomment for debugging
+  ai_analysis: disabled  # enable only in experimental mode
 
 database:
   host: prod-db.example.com
   port: 5432
   name: devops_prod
+  distributed: false  # change to true for experimental cluster mode
 
 features:
-  auto_scaling: true
-  load_balancer: enabled
+  auto_scaling: true         # advanced auto-scaling in experimental mode
+  load_balancer: enabled     # ai-optimized in experimental mode
   backup_enabled: true
-  # experimental_features: true  # only for dev/testing
+  chaos_engineering: false   # enable for resilience testing
+
+ai_features:
+  predictive_scaling: false
+  anomaly_detection: false
+  auto_optimization: false
+  model_version: "v2.1.0"
+
+cloud_providers:
+  - aws
+  - azure
+  # enable others when experimental_mode: true
+  # - gcp
+  # - digitalocean
+
+security:
+  zero_trust: enabled
+  encryption: AES-256
+  audit_logging: standard  # change to comprehensive in experimental mode
 
 # Development-only settings (disabled in production)
 # development:
