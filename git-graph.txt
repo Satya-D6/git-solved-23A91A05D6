@@ -1,0 +1,24 @@
+* 9740724 (HEAD -> main, origin/main, origin/HEAD) docs: Add changelog
+*   662d8ef Merge pull request #2 from Satya-D6/feature/another-feature
+|\  
+| * 33e63f0 (origin/feature/another-feature) feat: Add test feature
+|/  
+* d23f5e4 (tag: v1.1.0, tag: v1.0.0, feature/another-feature) docs: Add FAQ section
+*   61253c4 Merge pull request #1 from Satya-D6/feature/new-feature
+|\  
+| * c9c81db (origin/feature/new-feature, feature/new-feature) feat: Add new feature
+|/  
+* b9ebf87 checkpoint3 image was added
+*   efac0cb merge: Resolve all conflicts between main and conflict-simulator branches
+|\  
+| * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* | 96eaf08 checkpoint2 image was added
+* |   7c73fdd merge: Resolve all conflicts between main and dev branches
+|\ \  
+| * | 02011a5 (instructor/dev, dev) updating dev
+| |/  
+* | d8e9c41 Screenshot image was added checkpoint1
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+* ae630eb Initial commit
