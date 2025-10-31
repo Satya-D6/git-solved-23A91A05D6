@@ -50,3 +50,4 @@ DevOps Simulator enables teams to automate deployment pipelines, monitor system 
 3. Run the deployment script:  
    ```bash
    ./scripts/deploy.sh production
+## FAQ
